@@ -1,20 +1,22 @@
 # TrackProgress
 
-TODO: Delete this and the text below, and describe your gem
+```ruby
+TrackProgress.display_inline_progress(current: 20, total: 40, bar_length: 100, color: :green)
+```
+Output:
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/track_progress`. To experiment with that code, run `bin/console` for an interactive prompt.
+![Screenshot 2024-01-11 at 12 36 54 a m](https://github.com/daniel-enqz/track_progress/assets/72522628/946ad18f-f891-423e-b580-342f79b82459)
 
 ## Installation
 
-TODO: Replace `UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG` with your gem name right after releasing it to RubyGems.org. Please do not do it earlier due to security reasons. Alternatively, replace this section with instructions to install your gem from git if you don't plan to release to RubyGems.org.
-
-Install the gem and add to the application's Gemfile by executing:
-
-    $ bundle add UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
-
-If bundler is not being used to manage dependencies, install the gem by executing:
-
-    $ gem install UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
+Add gem:
+```ruby
+    group :development, :test do
+        # [...]
+        gem 'track_progress', git: 'https://github.com/daniel-enqz/track_progress.git'
+        # [...]
+    end
+```
 
 ## Usage
 
