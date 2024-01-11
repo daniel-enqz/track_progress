@@ -1,0 +1,22 @@
+PATH
+  remote: .
+  specs:
+    track_progress (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    colorize (1.1.0)
+    rake (13.1.0)
+
+PLATFORMS
+  arm64-darwin-21
+  ruby
+
+DEPENDENCIES
+  colorize
+  rake (~> 13.0)
+  track_progress!
+
+BUNDLED WITH
+   2.5.3
