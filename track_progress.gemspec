@@ -10,14 +10,14 @@ Gem::Specification.new do |spec|
 
   spec.summary = "Track seeds, migrations and other tasks progress."
   spec.description = "This gem allows you to track the progress of your seeds, migrations and other tasks."
-  spec.homepage = "https://github.com/daniel-enqz/progress"
+  spec.homepage = "https://github.com/daniel-enqz/track_progress"
   spec.required_ruby_version = ">= 2.6.0"
 
   spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/daniel-enqz/progress"
-  spec.metadata["changelog_uri"] = "https://github.com/daniel-enqz/progress"
+  spec.metadata["source_code_uri"] = "https://github.com/daniel-enqz/track_progress"
+  spec.metadata["changelog_uri"] = "https://github.com/daniel-enqz/track_progress"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
@@ -36,4 +36,7 @@ Gem::Specification.new do |spec|
 
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
+
+  spec.files       = Dir["{app,config,db,lib}/**/*", "Rakefile", "README.md"]
+  # Make sure the gem itself is not included in the files list
 end
