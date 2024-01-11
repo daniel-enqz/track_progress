@@ -36,7 +36,4 @@ Gem::Specification.new do |spec|
 
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
-
-  spec.files       = Dir["{app,config,db,lib}/**/*", "Rakefile", "README.md"]
-  # Make sure the gem itself is not included in the files list
 end
