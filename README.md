@@ -21,4 +21,4 @@ Add gem:
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/track_progress.
+Bug reports and pull requests are welcome on GitHub at https://github.com/daniel-enqz/track_progress.
