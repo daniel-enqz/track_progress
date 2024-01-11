@@ -12,6 +12,6 @@ module TrackProgress
     filled_length = (progress * bar_length).round
     bar = '=' * filled_length
     empty_bar = ' ' * (bar_length - filled_length)
-    p "[#{bar}#{empty_bar}] #{(progress * 100).truncate(2)}%\r".colorize(color)
+    print "\r[#{bar}#{empty_bar}] #{(progress * 100).truncate(2)}%\r".colorize(color)
   end
 end
